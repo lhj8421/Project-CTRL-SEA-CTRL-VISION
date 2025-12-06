@@ -29,9 +29,9 @@
 ## 3. 이상 감지 Anomaly Detection
 
 **학습 방법**
-- ✅ **정상 데이터**: 깨끗한 바다 사진들
-- ❌ **이상 데이터**: 장애물이 있는 사진들
-- 🤖 **AI 모델**: EfficientNet-B3
+- **정상 데이터**: 깨끗한 바다 사진들
+- **이상 데이터**: 장애물이 있는 사진들
+- **AI 모델**: EfficientNet-B3
 
 ### 🛰 이상 감지 학습 방식
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/985ad610-50d7-4ccc-9a17-2aa1e0382648" />
@@ -40,6 +40,10 @@
 
 
 ## 4. 낙상 감지 Fall Detection
+
+- **카메라로 사람 관절 위치 파악** (머리, 어깨, 팔, 다리 등)
+- **자세 각도 계산** (서 있는지, 누워있는지)
+- **낙상 판정** → 즉시 상황실에 경보 전송 (MQTT)
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/31dbde92-9598-485e-a084-1bc7e134c20a" />
 
@@ -50,6 +54,10 @@
 
 
 ## 5. 상황실 Ctrl Room
+
+**MQTT**
+- 센서들이 메시지를 주고받는 통신 방식
+- 신문을 신청하듯이 "토픽"에 메시지 발행하면, 구독을 한 사람이 받아봄
 
 ### 🛰 MQTT 통신 구조
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d11e990d-bc68-49d7-85ee-3318ded7239e" />
@@ -64,7 +72,6 @@
 | **나지훈** | Server / MQTT / GUI / LLM / STT / TTS |
 | **김찬미** | Pose Estimation / Fall Detection |
 | **이환중** | Object Detection / Anomaly Detection |
-
 
 
 ### 겪었던 문제
