@@ -28,6 +28,11 @@
 
 ## 3. 이상 감지 Anomaly Detection
 
+**학습 방법**
+- ✅ **정상 데이터**: 깨끗한 바다 사진들
+- ❌ **이상 데이터**: 장애물이 있는 사진들
+- 🤖 **AI 모델**: EfficientNet-B3
+
 ### 🛰 이상 감지 학습 방식
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/985ad610-50d7-4ccc-9a17-2aa1e0382648" />
 
@@ -59,3 +64,12 @@
 | **나지훈** | Server / MQTT / GUI / LLM / STT / TTS |
 | **김찬미** | Pose Estimation / Fall Detection |
 | **이환중** | Object Detection / Anomaly Detection |
+
+
+
+### 겪었던 문제
+
+**문제: Jetson Nano에서 AI 모델이 안 돌아감** 😓
+- Jetson Nano는 2019년 구형 모델
+- 최신 AI 모델 변환 시 오류 발생 (INT64 타입 문제)
+- 버전 업그레이드도 안됨 (지원 종료)
