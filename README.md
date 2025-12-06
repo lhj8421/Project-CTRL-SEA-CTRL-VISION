@@ -16,7 +16,7 @@
 
 > ### **이미지 향상(Image Enhancement) 및 복원(Image Restoration)을 통한 시야 확보**
 >
-> ### 기술 특징
+### 기술 특징
 - **Image Enhancement**: 대비 향상 및 노이즈 제거를 통한 시인성 개선
 - **Image Restoration**: 안개로 손실된 이미지 정보 복원
 
