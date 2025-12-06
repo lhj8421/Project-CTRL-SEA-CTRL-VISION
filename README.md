@@ -28,8 +28,7 @@
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/985ad610-50d7-4ccc-9a17-2aa1e0382648" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/4751b0ca-cb80-4c3a-ba1a-3fddf19bb0d1" />
-<img src="docs/resources/video_gif/02_AD_No_Dehazing.gif" alt="02_AD_No_Dehazing.gif" width="800"/>
-<img src="docs/resources/video_gif/03_AD_Dehazing.gif" alt="03_AD_Dehazing.gif" width="800"/>
+
 
 ## 4. 낙상 감지 Fall Detection
 
@@ -37,8 +36,7 @@
 
 <img src="https://github.com/user-attachments/assets/ac1ceadf-53a7-4eb9-8f55-9cbd8d159dfe" width="800"/>  
 <img src="https://github.com/user-attachments/assets/58486cd9-d9b5-46f6-bcaf-c36f92431969" width="800"/>  
-<img src="docs/resources/video_gif/04_PE1.gif" alt="04_PE1.gif" width="800"/>
-<img src="docs/resources/video_gif/05_PE2.gif" alt="05_PE2.gif" width="800"/>
+
  
 
 
@@ -48,8 +46,6 @@
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/d11e990d-bc68-49d7-85ee-3318ded7239e" />
 
 <img width="1920" height="1080" alt="Image" src="https://github.com/user-attachments/assets/7fba15d9-5d4e-474f-a1f1-ca6866c52cb1" />
-<img src="docs/resources/video_gif/06_Server_SystemLog.gif" alt="06_Server_SystemLog.gif" height="480"/>
-<img src="docs/resources/video_gif/07_Server_Logbook.gif" alt="07_Server_Logbook.gif" height="480"/>
 
 ## 6. 팀원 소개
 | 이름 | 담당 |
