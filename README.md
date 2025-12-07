@@ -74,9 +74,11 @@
 | **이환중** | Object Detection / Anomaly Detection |
 
 
-### 겪었던 문제
+### 💦 겪었던 문제
 
 **문제: Jetson Nano에서 AI 모델이 안 돌아감** 😓
 - Jetson Nano는 2019년 구형 모델
 - 최신 AI 모델 변환 시 오류 발생 (INT64 타입 문제)
 - 버전 업그레이드도 안됨 (지원 종료)
+
+**해결 : 프로젝트 발표에서 ONNX파일을 Post-Traing 기법을 사용해서 JetsonNano에서 발생한 문제들을 해결할 수 있다는 것을 현재 근무하고 계시는 멘토분들에게 피드백을 받음
