@@ -10,7 +10,6 @@
 
 **개발 기간**: 2025.09.26 ~ 2025.10.22  
 **개발 환경**: Jetson Nano / Raspberry Pi 5 / Python / MQTT  
-**발표 자료 다운로드**: [[Ctrl + Click Here]](https://drive.google.com/drive/folders/1VzminDn5eenhiwE3JjTkIos7xjNJQT3j?usp=sharing)
 
 ## 2. 안개 제거 Dehazing
 
